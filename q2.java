@@ -19,7 +19,7 @@ class main{
             readFile(a1);
             for(int i=0;i<a1.length;i++){
                 int[] arr = Arrays.stream(a1[i].split(" ")).mapToInt(Integer::parseInt).toArray();
-                System.out.println("" + Arrays.toString(arr));
+                //System.out.println("" + Arrays.toString(arr));
     
     
                 if(strictlyDecreasing(arr)||strictlyIncreasing(arr)){
